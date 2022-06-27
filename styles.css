@@ -49,6 +49,11 @@ button {
     display: block;
 }
 
+body {
+    max-width: 100%;
+}
+
+
 /* -----------------
  RESULTS.HTML 
  ------------------*/
@@ -58,12 +63,13 @@ button {
     border-bottom: 1px solid #c4c4c4;
     font-family: Helvetica, sans-serif;
     width: 700px
+    display: inline-block
  }
 
-small {
-     font-family: Helvetica, sans-serif;
-     font-size: 12px;
-     margin: 30px 0 30px 40px;
+.research {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 20px 0 30px 40px;
 }
 
 nav .logo {
@@ -75,7 +81,9 @@ nav .logo {
 nav form input {
     display: inline;
     height: 35px;
-    border-radius: 10px;
+    width: 400px;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
     margin-right: 20px;
 }
 
@@ -85,13 +93,22 @@ nav form button {
 }
 
 h2 {
-    font-size: 24px
+    font-size: 24px;
+    margin: 6px 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+
+h2 a {
+    text-decoration: none;
 }
 
 
-
 a{
-    color: #1a0dab
+    color: #1a0dab;
 }
 
 a:visited{
@@ -106,4 +123,14 @@ a:visited{
 .result small {
     font-size: 14px;
     margin: 0;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+.result ul li {
+    margin: 0 10px 0 0;
+    display: inline;
+    font-size: 12px;
 }
