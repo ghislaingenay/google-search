@@ -1,9 +1,13 @@
-.searchpage {
-    margin: auto;
-    width: 50VW;
-    text-align: center;
-    
+body{
+    margin: 0;
 }
+
+.searchpage {
+    margin: 0 auto;
+    width: 50VW;
+    text-align: center;   
+} 
+
 
 .searchpage img{
     margin-top: 100px;
