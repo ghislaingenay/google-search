@@ -1,3 +1,7 @@
+/* ----------------
+  SEARCH.HTML 
+ ---------------- */
+
 body{
     margin: 0;
 }
@@ -23,6 +27,18 @@ body{
     color: #5b5b5b
 }
 
+.searchpage button{
+    margin: auto;
+}
+
+/* -------------------
+SEARCH AND RESULTS.HTML 
+---------------------*/
+
+button:hover {
+    background-color: #5998ff;
+}
+
 button {
     padding: 10px 18px;
     font-size: 15px; 
@@ -33,10 +49,61 @@ button {
     display: block;
 }
 
-.searchpage button{
-    margin: auto;
+/* -----------------
+ RESULTS.HTML 
+ ------------------*/
+
+ nav {
+    margin: 10px;
+    border-bottom: 1px solid #c4c4c4;
+    font-family: Helvetica, sans-serif;
+    width: 700px
+ }
+
+small {
+     font-family: Helvetica, sans-serif;
+     font-size: 12px;
+     margin: 30px 0 30px 40px;
 }
 
-button:hover {
-    background-color: #5998ff;
+nav .logo {
+    display: inline;
+    width: 100px;
+    margin-right: 30px;
+}
+
+nav form input {
+    display: inline;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+nav form button {
+    display: inline;
+  
+}
+
+h2 {
+    font-size: 24px
+}
+
+
+
+a{
+    color: #1a0dab
+}
+
+a:visited{
+    color: #660099;
+}
+
+.result {
+    margin: 30px 0 30px 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+.result small {
+    font-size: 14px;
+    margin: 0;
 }
