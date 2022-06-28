@@ -8,7 +8,6 @@ button {
     border: 1px solid #1a5fd0;
     border-radius: 5px;
     color: white ;
-    display: block;
     font-size: 15px; 
     padding: 10px 18px;
    
@@ -33,29 +32,29 @@ SEARCH.HTML
 .searchpage {
     margin: 0 auto;
     text-align: center;   
-    width: 50vw;
+    width: 400px;
 } 
 
-.searchpage img{
+.searchpage img {
     margin-top: 100px;
     width: 150px;
 }
 
-.searchpage input{
+.searchpage input {
     padding-left: 30px;
     border: 1px solid #c4c4c4;
     border-radius: 20px;
     color: #5b5b5b;
     height: 35px;
     margin: 20px 0;
-    width: 400px;
+    width: 100%;
 }
 
 .searchpage input:focus {
     outline: none
 }
 
-.searchpage button{
+.searchpage button {
     margin: auto;
 }
 
@@ -103,7 +102,7 @@ nav form button {
     display: inline; 
 }
 
-/* Headings,paragraph  */
+/* Headings / Paragraph  */
 
 h2 {
     font-size: 24px;
