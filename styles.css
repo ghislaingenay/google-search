@@ -1,17 +1,40 @@
-/* ----------------
-  SEARCH.HTML 
- ---------------- */
+/* -------------------
+GLOBAL
+---------------------*/
 
-body{
-    margin: 0;
+
+button {
+    background-color: #4285f3;
+    border: 0.2px solid #1a5fd0;
+    border-radius: 5px;
+    color: white ;
+    display: block;
+    font-size: 15px; 
+    padding: 10px 18px;
+   
 }
+
+button:hover {
+    background-color: #5998ff;
+}
+
+body {
+    color: #5b5b5b;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+/* -------------------
+SEARCH.HTML 
+---------------------*/
+
 
 .searchpage {
     margin: 0 auto;
-    width: 50VW;
     text-align: center;   
+    width: 50VW;
 } 
-
 
 .searchpage img{
     margin-top: 100px;
@@ -19,58 +42,44 @@ body{
 }
 
 .searchpage input{
-    width: 400px;
-    height: 35px;
-    margin: 20px 0;
     border: 1px solid #c4c4c4;
     border-radius: 20px;
-    color: #5b5b5b
+    color: #5b5b5b;
+    height: 35px;
+    margin: 20px 0;
+    width: 400px;
 }
 
 .searchpage button{
     margin: auto;
 }
 
+
 /* -------------------
-SEARCH AND RESULTS.HTML 
+RESULTS.HTML 
 ---------------------*/
 
-button:hover {
-    background-color: #5998ff;
-}
 
-button {
-    padding: 10px 18px;
-    font-size: 15px; 
-    border: 0.2px solid #1a5fd0;
-    border-radius: 5px;
-    background-color: #4285f3;
-    color: white ;
-    display: block;
-}
-
-body {
-    max-width: 100%;
-}
-
-
+margin top div after span is 0
 /* -----------------
  RESULTS.HTML 
  ------------------*/
 
+ /* Nav */
+
  nav {
-    margin: 10px;
     border-bottom: 1px solid #c4c4c4;
+    display: inline-block; 
     font-family: Helvetica, sans-serif;
-    display: inline-block;
-    width: 100%;
     height: 70px;
+    margin: 10px;
+    width: 100%;
  }
 
 .research {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-    margin: 20px 0 30px 40px;
+    margin: 20px 0 30px 150px;
 }
 
 nav .logo {
@@ -80,24 +89,27 @@ nav .logo {
 }
 
 nav form {
-    display: inline;
+    display: inline-block;
     padding-bottom: 10px;
 
 }
 nav form input {
-    height: 35px;
-    width: 400px;
     border: 1px solid #c4c4c4;
     border-radius: 20px;
+    height: 35px;
     margin-right: 20px;
+    width: 400px;
 }
 
 nav form button {
     display: inline; 
 }
 
+/* Headings,paragraph  */
+
 h2 {
     font-size: 24px;
+    font-weight: 400;
     margin: 6px 0;
 }
 
@@ -106,10 +118,7 @@ p {
     margin: 10px 0 5px 0;
 }
 
-h2 a {
-    text-decoration: none;
-}
-
+/* Links */
 
 a{
     color: #1a0dab;
@@ -118,10 +127,14 @@ a{
 a:visited{
     color: #660099;
 }
+h2 a {
+    text-decoration: none;
+}
 
+/* result item */
 .result {
-    margin: 30px 0 30px 40px;
     font-family: Helvetica, sans-serif;
+    margin: 30px 0 30px 150px;
     max-width: 80%;
 }
 
@@ -134,8 +147,9 @@ ul {
     margin: 5px 0;
     padding: 0;
 }
+
 .result ul li {
-    margin: 0 10px 0 0;
     display: inline;
     font-size: 12px;
+    margin: 0 10px 0 0;
 }
